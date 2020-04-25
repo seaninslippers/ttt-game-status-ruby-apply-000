@@ -28,8 +28,8 @@ def won?(board)
       return win_combo
     elsif position_1 == "X" && position_2 == "X" && position_3 =="X"
       return win_combo
-    else
-      return false
     end}
     return false
 end
+
+
