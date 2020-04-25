@@ -15,17 +15,17 @@ WIN_COMBINATIONS = [
   [2,4,6]]
 
 def won?(board)
-  WIN_COMBINATIONS.each do |Win_combination|
-    win_index_1 = Win_combination[0]
-    win_index_2 = Win_combination[1]
-    win_index_3 = Win_combination[2]
+  WIN_COMBINATIONS.each do |Win_senario|
+    win_index_1 = Win_senario[0]
+    win_index_2 = Win_senario[1]
+    win_index_3 = Win_senario[2]
 
     position_1 = board[win_index_1]
     position_2 = board[win_index_2]
     position_3 = board[win_index_3]
 
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
-      Win_combination
+      Win_senario
     else
       false
     end
