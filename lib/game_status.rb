@@ -28,6 +28,7 @@ def won?(board)
       return win_senario
     else position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_senario
+    end
     }
     return false
   end
