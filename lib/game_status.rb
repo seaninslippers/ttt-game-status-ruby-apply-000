@@ -36,3 +36,56 @@ end
 def full?(board)
   board.all? {|token| token == "X" || token == "O"}
 end
+
+def draw(board)
+  if won?(board) != false
+    return false
+  elsif won?(board) = false || full?(board) == true
+    return true
+  elsif won?(board) = false || full?(board) == false
+    return false
+  end
+end
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
