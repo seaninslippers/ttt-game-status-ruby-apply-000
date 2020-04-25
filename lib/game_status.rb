@@ -37,7 +37,7 @@ def full?(board)
   board.all? {|token| token == "X" || token == "O"}
 end
 
-def draw(board)
+def draw?(board)
   if won?(board) != false
     return false
   elsif won?(board) != WIN_COMBINATIONS[win_combo] || full?(board) == true
