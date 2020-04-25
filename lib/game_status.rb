@@ -42,7 +42,7 @@ def draw(board)
     return false
   elsif won?(board) != WIN_COMBINATIONS[win_combo] || full?(board) = true
     return true
-  elsif won?(board) != WIN_COMBINATIONS[win_combo]  || full?(board) = false
+  elsif won?(board) != WIN_COMBINATIONS[win_combo] || full?(board) = false
     return false
   end
 end
