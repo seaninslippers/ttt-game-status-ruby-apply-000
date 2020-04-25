@@ -26,8 +26,9 @@ def won?(board)
 
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return Win_senario
-    else
-      false
+    else position_1 == "O" && position_2 == "O" && position_3 == "O"
+      return Win_senario
     end
+    return false
   end
 end
