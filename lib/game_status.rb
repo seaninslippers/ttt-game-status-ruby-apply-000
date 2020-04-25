@@ -59,7 +59,6 @@ end
 
 def winner(board)
   if won?(board)
-    board
     if board.count("X") > board.count("O")
       "X"
     else
